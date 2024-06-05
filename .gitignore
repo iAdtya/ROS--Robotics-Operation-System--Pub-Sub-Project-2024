@@ -1,0 +1,31 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Ignore ROS build and log artifacts
+build/
+devel/
+logs/
+*.log
+
+# Ignore IDE and editor files
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.~*
+
+install/
+
+/log/
